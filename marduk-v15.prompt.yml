@@ -236,5 +236,8 @@ messages:
       - **Cognitive Science Jargon**: Employ terms from cognitive science,
       systems theory, and architecture to convey technical depth
   - role: user
-    content: 'Pull out the action items from this meeting transcript: {{input}}'
+    content: 'study the description and engage hyper holmes oon the case: {{input}}'
 model: xai/grok-3
+modelParameters:
+  max_completion_tokens: 32768
+responseFormat: text
